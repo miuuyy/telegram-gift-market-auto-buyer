@@ -1,0 +1,25 @@
+# ---- Python artefacts ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---- Virtual envs ----
+env/
+venv/
+
+# ---- Build / packaging ----
+build/
+dist/
+*.spec          # PyInstaller spec
+
+# ---- IDE crap ----
+.vscode/
+.idea/
+
+# ---- Project-specific ----
+ocr_debug_images/
+autoclicker_settings.json
+Tesseract-OCR/          # portable движок
+*.log
+*.exe
